@@ -1,0 +1,26 @@
+{
+  "name": "Blockchain Orchestration Command Center",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "kotlin.language",
+        "ms-vscode.vscode-typescript-next",
+        "ritwickdey.liveserver",
+        "GitHub.copilot"
+      ],
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+      }
+    }
+  },
+  "forwardPorts": [3000, 5500, 8080],
+  "postCreateCommand": "npm install && gradle build"
+}
