@@ -1,0 +1,15 @@
+{
+  "name": "blockchain-orchestration-command-center",
+  "version": "1.0.0",
+  "description": "An advanced, non-custodial Web & Mobile Command Center for smart contract compilation, deployment, multi-chain transaction signing, live mempool streaming, and automated Web3 faucet orchestration.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0",
+    "express": "^4.22.2",
+    "ws": "^8.21.3"
+  }
+}

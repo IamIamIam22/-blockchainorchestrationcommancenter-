@@ -1,0 +1,6 @@
+{
+  "name": "Blockchain Orchestration Command Center",
+  "description": "An advanced, non-custodial Web & Mobile Command Center for smart contract compilation, deployment, multi-chain transaction signing, live mempool streaming, and automated Web3 faucet orchestration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
